@@ -293,6 +293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item_Boom (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3284190746865502280, guid: 5d3ed3d0b8a61104cb765326548f3259, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d3ed3d0b8a61104cb765326548f3259, type: 3}
 --- !u!1 &88153914
@@ -1440,6 +1444,54 @@ RectTransform:
   m_AnchoredPosition: {x: 400, y: 500}
   m_SizeDelta: {x: 800, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &420487151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 420487153}
+  - component: {fileID: 420487152}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &420487152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420487151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ab708f012490e45b50453d9255ab01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: 
+    prefab: {fileID: 0}
+    size: 0
+--- !u!4 &420487153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420487151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &421184417
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,6 +3614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item_Pet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7900116949758881169, guid: b8c7cb91d89df5e43b97d3d71fc7ac11, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9020297948725984253, guid: b8c7cb91d89df5e43b97d3d71fc7ac11, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -4953,6 +5009,10 @@ PrefabInstance:
     - target: {fileID: 5824894755667370922, guid: 98b9462e7edd5f44db3d5de71f4c7df9, type: 3}
       propertyPath: m_Name
       value: Item_Coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824894755667370922, guid: 98b9462e7edd5f44db3d5de71f4c7df9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98b9462e7edd5f44db3d5de71f4c7df9, type: 3}
@@ -7800,6 +7860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item_Boom
       objectReference: {fileID: 0}
+    - target: {fileID: 3284190746865502280, guid: 5d3ed3d0b8a61104cb765326548f3259, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d3ed3d0b8a61104cb765326548f3259, type: 3}
 --- !u!1 &1653157113
@@ -8221,6 +8285,10 @@ PrefabInstance:
     - target: {fileID: 7900116949758881169, guid: b8c7cb91d89df5e43b97d3d71fc7ac11, type: 3}
       propertyPath: m_Name
       value: Item_Pet
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900116949758881169, guid: b8c7cb91d89df5e43b97d3d71fc7ac11, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9020297948725984253, guid: b8c7cb91d89df5e43b97d3d71fc7ac11, type: 3}
       propertyPath: m_RootOrder
@@ -8933,6 +9001,10 @@ PrefabInstance:
     - target: {fileID: 3364821618140029244, guid: 11773a36f31f2d64195b1d8a28694e16, type: 3}
       propertyPath: m_Name
       value: Item_Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364821618140029244, guid: 11773a36f31f2d64195b1d8a28694e16, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7760801760044394931, guid: 11773a36f31f2d64195b1d8a28694e16, type: 3}
       propertyPath: m_RootOrder
